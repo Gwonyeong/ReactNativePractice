@@ -1,7 +1,7 @@
 import React from "react";
 
 import DecisionButtonBox from "../components/items/DecisionButtonBox";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import DecisionInfo from "../components/items/DecisionInfo";
 
 export default function MainPage() {
@@ -9,6 +9,8 @@ export default function MainPage() {
     <View style={styles.container}>
       <DecisionInfo />
       <DecisionButtonBox />
+
+      <Text>여기쯤에 광고</Text>
     </View>
   );
 }
